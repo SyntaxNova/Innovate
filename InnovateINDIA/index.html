@@ -2,11 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>InnovateINDIA - Community Innovation Platform</title>
+    <style>
+      #chat-container {
+        width: 100%;
+        height: 500px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #fff;
+      }
+    </style>
   </head>
   <body>
+    <!-- This is where Gemini will mount -->
+    <div id="chat-container"></div>
+
+    <!-- React root -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
